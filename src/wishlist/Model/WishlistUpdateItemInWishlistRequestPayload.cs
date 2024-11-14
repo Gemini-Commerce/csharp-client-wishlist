@@ -43,6 +43,7 @@ namespace wishlist.Model
             this.PreferredQuantity = preferredQuantity;
             this.Description = description;
             this.CustomerGrn = customerGrn;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -64,6 +65,12 @@ namespace wishlist.Model
         public string CustomerGrn { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -74,6 +81,7 @@ namespace wishlist.Model
             sb.Append("  PreferredQuantity: ").Append(PreferredQuantity).Append("\n");
             sb.Append("  Description: ").Append(Description).Append("\n");
             sb.Append("  CustomerGrn: ").Append(CustomerGrn).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -92,7 +100,7 @@ namespace wishlist.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

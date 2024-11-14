@@ -368,7 +368,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistItemResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistAddItemToWishlistAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistAddItemToWishlistAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -381,7 +381,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistItemResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistItemResponse>> WishlistAddItemToWishlistWithHttpInfoAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistItemResponse>> WishlistAddItemToWishlistWithHttpInfoAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -393,7 +393,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistAreItemsInWishlistsResponse</returns>
-        System.Threading.Tasks.Task<WishlistAreItemsInWishlistsResponse> WishlistAreItemsInWishlistsAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistAreItemsInWishlistsResponse> WishlistAreItemsInWishlistsAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -406,7 +406,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistAreItemsInWishlistsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistAreItemsInWishlistsResponse>> WishlistAreItemsInWishlistsWithHttpInfoAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistAreItemsInWishlistsResponse>> WishlistAreItemsInWishlistsWithHttpInfoAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// Sharing endpoints
         /// </summary>
@@ -418,7 +418,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistBulkCreateSharingResponse</returns>
-        System.Threading.Tasks.Task<WishlistBulkCreateSharingResponse> WishlistBulkCreateSharingAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistBulkCreateSharingResponse> WishlistBulkCreateSharingAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// Sharing endpoints
@@ -431,7 +431,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistBulkCreateSharingResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistBulkCreateSharingResponse>> WishlistBulkCreateSharingWithHttpInfoAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistBulkCreateSharingResponse>> WishlistBulkCreateSharingWithHttpInfoAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// BulkRemoveItemsFromWishlists removes items from wishlists.
         /// </summary>
@@ -443,7 +443,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> WishlistBulkRemoveItemsFromWishlistsAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> WishlistBulkRemoveItemsFromWishlistsAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// BulkRemoveItemsFromWishlists removes items from wishlists.
@@ -456,7 +456,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistBulkRemoveItemsFromWishlistsWithHttpInfoAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistBulkRemoveItemsFromWishlistsWithHttpInfoAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -468,7 +468,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> WishlistBulkRevokeSharingAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> WishlistBulkRevokeSharingAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -481,7 +481,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistBulkRevokeSharingWithHttpInfoAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistBulkRevokeSharingWithHttpInfoAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -493,7 +493,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistCreateWishlistAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistCreateWishlistAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -506,7 +506,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistCreateWishlistWithHttpInfoAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistCreateWishlistWithHttpInfoAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -518,7 +518,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> WishlistDeleteWishlistAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> WishlistDeleteWishlistAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -531,7 +531,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistDeleteWishlistWithHttpInfoAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistDeleteWishlistWithHttpInfoAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -543,7 +543,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistItemResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistGetItemFromWishlistAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistGetItemFromWishlistAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -556,7 +556,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistItemResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistItemResponse>> WishlistGetItemFromWishlistWithHttpInfoAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistItemResponse>> WishlistGetItemFromWishlistWithHttpInfoAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -568,7 +568,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistByIdAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistByIdAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -581,7 +581,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistByIdWithHttpInfoAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistByIdWithHttpInfoAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -593,7 +593,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistBySharedCodeAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistBySharedCodeAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -606,7 +606,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistBySharedCodeWithHttpInfoAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistBySharedCodeWithHttpInfoAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -618,7 +618,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistListWishlistItemsResponse</returns>
-        System.Threading.Tasks.Task<WishlistListWishlistItemsResponse> WishlistListWishlistItemsAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistListWishlistItemsResponse> WishlistListWishlistItemsAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -631,7 +631,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistListWishlistItemsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistListWishlistItemsResponse>> WishlistListWishlistItemsWithHttpInfoAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistListWishlistItemsResponse>> WishlistListWishlistItemsWithHttpInfoAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -643,7 +643,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistListWishlistsResponse</returns>
-        System.Threading.Tasks.Task<WishlistListWishlistsResponse> WishlistListWishlistsAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistListWishlistsResponse> WishlistListWishlistsAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -656,7 +656,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistListWishlistsResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistListWishlistsResponse>> WishlistListWishlistsWithHttpInfoAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistListWishlistsResponse>> WishlistListWishlistsWithHttpInfoAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -668,7 +668,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistMergeWishlistsAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistMergeWishlistsAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -681,7 +681,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistMergeWishlistsWithHttpInfoAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistMergeWishlistsWithHttpInfoAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -693,7 +693,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        System.Threading.Tasks.Task<Object> WishlistRemoveItemFromWishlistAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<Object> WishlistRemoveItemFromWishlistAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -706,7 +706,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistRemoveItemFromWishlistWithHttpInfoAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<Object>> WishlistRemoveItemFromWishlistWithHttpInfoAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -718,7 +718,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistItemResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistUpdateItemInWishlistAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistUpdateItemInWishlistAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -731,7 +731,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistItemResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistItemResponse>> WishlistUpdateItemInWishlistWithHttpInfoAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistItemResponse>> WishlistUpdateItemInWishlistWithHttpInfoAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         /// <summary>
         /// 
         /// </summary>
@@ -743,7 +743,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistUpdateWishlistAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistUpdateWishlistAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
 
         /// <summary>
         /// 
@@ -756,7 +756,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistUpdateWishlistWithHttpInfoAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken));
+        System.Threading.Tasks.Task<ApiResponse<WishlistWishlistResponse>> WishlistUpdateWishlistWithHttpInfoAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken));
         #endregion Asynchronous Operations
     }
 
@@ -961,7 +961,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistItemResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistAddItemToWishlistAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistAddItemToWishlistAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistItemResponse> localVarResponse = await WishlistAddItemToWishlistWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -975,7 +975,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistItemResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistItemResponse>> WishlistAddItemToWishlistWithHttpInfoAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistItemResponse>> WishlistAddItemToWishlistWithHttpInfoAsync(WishlistAddItemToWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1117,7 +1117,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistAreItemsInWishlistsResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistAreItemsInWishlistsResponse> WishlistAreItemsInWishlistsAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistAreItemsInWishlistsResponse> WishlistAreItemsInWishlistsAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistAreItemsInWishlistsResponse> localVarResponse = await WishlistAreItemsInWishlistsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1131,7 +1131,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistAreItemsInWishlistsResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistAreItemsInWishlistsResponse>> WishlistAreItemsInWishlistsWithHttpInfoAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistAreItemsInWishlistsResponse>> WishlistAreItemsInWishlistsWithHttpInfoAsync(WishlistAreItemsInWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1273,7 +1273,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistBulkCreateSharingResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistBulkCreateSharingResponse> WishlistBulkCreateSharingAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistBulkCreateSharingResponse> WishlistBulkCreateSharingAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistBulkCreateSharingResponse> localVarResponse = await WishlistBulkCreateSharingWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1287,7 +1287,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistBulkCreateSharingResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistBulkCreateSharingResponse>> WishlistBulkCreateSharingWithHttpInfoAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistBulkCreateSharingResponse>> WishlistBulkCreateSharingWithHttpInfoAsync(WishlistBulkCreateSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1429,7 +1429,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> WishlistBulkRemoveItemsFromWishlistsAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> WishlistBulkRemoveItemsFromWishlistsAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<Object> localVarResponse = await WishlistBulkRemoveItemsFromWishlistsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1443,7 +1443,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistBulkRemoveItemsFromWishlistsWithHttpInfoAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistBulkRemoveItemsFromWishlistsWithHttpInfoAsync(WishlistBulkRemoveItemsFromWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1585,7 +1585,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> WishlistBulkRevokeSharingAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> WishlistBulkRevokeSharingAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<Object> localVarResponse = await WishlistBulkRevokeSharingWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1599,7 +1599,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistBulkRevokeSharingWithHttpInfoAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistBulkRevokeSharingWithHttpInfoAsync(WishlistBulkRevokeSharingRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1741,7 +1741,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistCreateWishlistAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistCreateWishlistAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistResponse> localVarResponse = await WishlistCreateWishlistWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1755,7 +1755,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistCreateWishlistWithHttpInfoAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistCreateWishlistWithHttpInfoAsync(WishlistCreateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -1897,7 +1897,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> WishlistDeleteWishlistAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> WishlistDeleteWishlistAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<Object> localVarResponse = await WishlistDeleteWishlistWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -1911,7 +1911,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistDeleteWishlistWithHttpInfoAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistDeleteWishlistWithHttpInfoAsync(WishlistDeleteWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2053,7 +2053,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistItemResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistGetItemFromWishlistAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistGetItemFromWishlistAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistItemResponse> localVarResponse = await WishlistGetItemFromWishlistWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2067,7 +2067,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistItemResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistItemResponse>> WishlistGetItemFromWishlistWithHttpInfoAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistItemResponse>> WishlistGetItemFromWishlistWithHttpInfoAsync(WishlistGetItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2209,7 +2209,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistByIdAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistByIdAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistResponse> localVarResponse = await WishlistGetWishlistByIdWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2223,7 +2223,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistByIdWithHttpInfoAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistByIdWithHttpInfoAsync(WishlistGetWishlistByIdRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2365,7 +2365,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistBySharedCodeAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistGetWishlistBySharedCodeAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistResponse> localVarResponse = await WishlistGetWishlistBySharedCodeWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2379,7 +2379,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistBySharedCodeWithHttpInfoAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistGetWishlistBySharedCodeWithHttpInfoAsync(WishlistGetWishlistBySharedCodeRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2521,7 +2521,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistListWishlistItemsResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistListWishlistItemsResponse> WishlistListWishlistItemsAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistListWishlistItemsResponse> WishlistListWishlistItemsAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistListWishlistItemsResponse> localVarResponse = await WishlistListWishlistItemsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2535,7 +2535,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistListWishlistItemsResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistListWishlistItemsResponse>> WishlistListWishlistItemsWithHttpInfoAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistListWishlistItemsResponse>> WishlistListWishlistItemsWithHttpInfoAsync(WishlistListWishlistItemsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2677,7 +2677,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistListWishlistsResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistListWishlistsResponse> WishlistListWishlistsAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistListWishlistsResponse> WishlistListWishlistsAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistListWishlistsResponse> localVarResponse = await WishlistListWishlistsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2691,7 +2691,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistListWishlistsResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistListWishlistsResponse>> WishlistListWishlistsWithHttpInfoAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistListWishlistsResponse>> WishlistListWishlistsWithHttpInfoAsync(WishlistListWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2833,7 +2833,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistMergeWishlistsAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistMergeWishlistsAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistResponse> localVarResponse = await WishlistMergeWishlistsWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -2847,7 +2847,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistMergeWishlistsWithHttpInfoAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistMergeWishlistsWithHttpInfoAsync(WishlistMergeWishlistsRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -2989,7 +2989,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of Object</returns>
-        public async System.Threading.Tasks.Task<Object> WishlistRemoveItemFromWishlistAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<Object> WishlistRemoveItemFromWishlistAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<Object> localVarResponse = await WishlistRemoveItemFromWishlistWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3003,7 +3003,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (Object)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistRemoveItemFromWishlistWithHttpInfoAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<Object>> WishlistRemoveItemFromWishlistWithHttpInfoAsync(WishlistRemoveItemFromWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3145,7 +3145,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistItemResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistUpdateItemInWishlistAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistItemResponse> WishlistUpdateItemInWishlistAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistItemResponse> localVarResponse = await WishlistUpdateItemInWishlistWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3159,7 +3159,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistItemResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistItemResponse>> WishlistUpdateItemInWishlistWithHttpInfoAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistItemResponse>> WishlistUpdateItemInWishlistWithHttpInfoAsync(WishlistUpdateItemInWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)
@@ -3301,7 +3301,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of WishlistWishlistResponse</returns>
-        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistUpdateWishlistAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<WishlistWishlistResponse> WishlistUpdateWishlistAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             wishlist.Client.ApiResponse<WishlistWishlistResponse> localVarResponse = await WishlistUpdateWishlistWithHttpInfoAsync(body, operationIndex, cancellationToken).ConfigureAwait(false);
             return localVarResponse.Data;
@@ -3315,7 +3315,7 @@ namespace wishlist.Api
         /// <param name="operationIndex">Index associated with the operation.</param>
         /// <param name="cancellationToken">Cancellation Token to cancel the request.</param>
         /// <returns>Task of ApiResponse (WishlistWishlistResponse)</returns>
-        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistUpdateWishlistWithHttpInfoAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(System.Threading.CancellationToken))
+        public async System.Threading.Tasks.Task<wishlist.Client.ApiResponse<WishlistWishlistResponse>> WishlistUpdateWishlistWithHttpInfoAsync(WishlistUpdateWishlistRequest body, int operationIndex = 0, System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
         {
             // verify the required parameter 'body' is set
             if (body == null)

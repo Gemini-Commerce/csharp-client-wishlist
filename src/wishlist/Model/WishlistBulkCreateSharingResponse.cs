@@ -39,6 +39,7 @@ namespace wishlist.Model
         public WishlistBulkCreateSharingResponse(List<WishlistSharingResponse> sharingResponses = default(List<WishlistSharingResponse>))
         {
             this.SharingResponses = sharingResponses;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -46,6 +47,12 @@ namespace wishlist.Model
         /// </summary>
         [DataMember(Name = "sharingResponses", EmitDefaultValue = false)]
         public List<WishlistSharingResponse> SharingResponses { get; set; }
+
+        /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
 
         /// <summary>
         /// Returns the string presentation of the object
@@ -56,6 +63,7 @@ namespace wishlist.Model
             StringBuilder sb = new StringBuilder();
             sb.Append("class WishlistBulkCreateSharingResponse {\n");
             sb.Append("  SharingResponses: ").Append(SharingResponses).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -74,7 +82,7 @@ namespace wishlist.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

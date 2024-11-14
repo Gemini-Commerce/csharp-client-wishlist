@@ -36,7 +36,10 @@ namespace wishlist.Model
         /// Initializes a new instance of the <see cref="WishlistAreItemsInWishlistsRequest" /> class.
         /// </summary>
         [JsonConstructorAttribute]
-        protected WishlistAreItemsInWishlistsRequest() { }
+        protected WishlistAreItemsInWishlistsRequest()
+        {
+            this.AdditionalProperties = new Dictionary<string, object>();
+        }
         /// <summary>
         /// Initializes a new instance of the <see cref="WishlistAreItemsInWishlistsRequest" /> class.
         /// </summary>
@@ -60,6 +63,7 @@ namespace wishlist.Model
             this.ItemGrns = itemGrns;
             this.WishlistId = wishlistId;
             this.CustomerGrn = customerGrn;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -87,6 +91,12 @@ namespace wishlist.Model
         public List<string> ItemGrns { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -98,6 +108,7 @@ namespace wishlist.Model
             sb.Append("  WishlistId: ").Append(WishlistId).Append("\n");
             sb.Append("  CustomerGrn: ").Append(CustomerGrn).Append("\n");
             sb.Append("  ItemGrns: ").Append(ItemGrns).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -116,7 +127,7 @@ namespace wishlist.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }

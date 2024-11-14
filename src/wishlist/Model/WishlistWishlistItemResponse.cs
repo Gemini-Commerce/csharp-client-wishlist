@@ -55,6 +55,7 @@ namespace wishlist.Model
             this.AddedByCustomerGrn = addedByCustomerGrn;
             this.AddedAt = addedAt;
             this.UpdatedAt = updatedAt;
+            this.AdditionalProperties = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -112,6 +113,12 @@ namespace wishlist.Model
         public DateTime UpdatedAt { get; set; }
 
         /// <summary>
+        /// Gets or Sets additional properties
+        /// </summary>
+        [JsonExtensionData]
+        public IDictionary<string, object> AdditionalProperties { get; set; }
+
+        /// <summary>
         /// Returns the string presentation of the object
         /// </summary>
         /// <returns>String presentation of the object</returns>
@@ -128,6 +135,7 @@ namespace wishlist.Model
             sb.Append("  AddedByCustomerGrn: ").Append(AddedByCustomerGrn).Append("\n");
             sb.Append("  AddedAt: ").Append(AddedAt).Append("\n");
             sb.Append("  UpdatedAt: ").Append(UpdatedAt).Append("\n");
+            sb.Append("  AdditionalProperties: ").Append(AdditionalProperties).Append("\n");
             sb.Append("}\n");
             return sb.ToString();
         }
@@ -146,7 +154,7 @@ namespace wishlist.Model
         /// </summary>
         /// <param name="validationContext">Validation context</param>
         /// <returns>Validation Result</returns>
-        IEnumerable<System.ComponentModel.DataAnnotations.ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
+        IEnumerable<ValidationResult> IValidatableObject.Validate(ValidationContext validationContext)
         {
             yield break;
         }
